@@ -6,6 +6,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/hooks/use-theme";
 import { DEFAULT_THEME, STORAGE_KEY, THEME_IDS } from "@/lib/themes";
 
+// Force dev server layout recompilation after theme settings update
 const inter = Inter({
   variable: "--font-sans",
   subsets: ["latin"],
